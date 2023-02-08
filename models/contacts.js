@@ -1,9 +1,4 @@
-const fs = require('fs/promises')
-const path = require ('path')
-const { randomUUID } = require('crypto')
-const {ContactModel} = require ("./schemaModel")
-
-const contactPath = path.resolve("./models/contacts.json")
+const {ContactModel} = require ("../schemas/contacts/schemaModel")
 
 const listContacts = async () => {
   try {
