@@ -1,4 +1,3 @@
-const schema = require("../../schemas/addContactValidate.js");
 const express = require("express");
 const {
   getContactControllers,

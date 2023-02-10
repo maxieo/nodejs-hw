@@ -8,7 +8,7 @@ const updateStatusContactController = async (req, res) => {
       res.status(400).json({"message": "missing field favorite"})
     }
   } catch (error) {
-    console.log(message.error);
+    console.log(error.message);
   }
 }
 

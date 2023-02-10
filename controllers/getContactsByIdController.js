@@ -8,7 +8,7 @@ const getContactByIdControllers = async (req, res) => {
     }
     return res.status(404).json({message: "id Not Found"})
   } catch (error) {
-    console.log(message.error);
+    console.log(error.message);
   }
 }
 

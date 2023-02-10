@@ -7,7 +7,7 @@ const removeContactController = async (req, res) => {
       return res.status(200).json({message: "contact has been remove"})
     }
   } catch (error) {
-    console.log(message.error);
+    console.log(error.message);
   }
 }
 
